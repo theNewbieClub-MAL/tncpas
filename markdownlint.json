@@ -1,0 +1,9 @@
+{
+    "$schema": "https://davidanson.vscode-unpkg.net/DavidAnson/vscode-markdownlint/0.48.0/extension/markdownlint-config-schema.json",
+    "MD004": false,
+    "MD013": false,
+    "MD029": false,
+    "MD033": false,
+    "MD040": false,
+    "MD047": true
+}
