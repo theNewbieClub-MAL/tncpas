@@ -14,13 +14,15 @@
 
 The Newbie Club is a [MyAnimeList](https://myanimelist.net) club with main objective to help newcomer in [ACG/MAG](https://en.wikipedia.org/wiki/ACG_(subculture)) culture. The club offers several events and community hosting.
 
+This repo is our effort in standardizing some of our works and contribute it to anyone that interested to follow our standards.
+
 ## About Repository
 
-This repository structure is inspired by [satoshilabs/slips](https://github.com/satoshilabs/slips) and [python/peps](https://github.com/python/peps).
+This repository structure is inspired by [github:satoshilabs/slips](https://github.com/satoshilabs/slips) and [github:python/peps](https://github.com/python/peps).
 
 ## License
 
-This repository is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](LICENzSE) license.
+This repository is licensed under [Creative Commons Attribution-ShareAlike 4.0 International](./LICENSE) license.
 
 ## Proposal and Standard List
 
