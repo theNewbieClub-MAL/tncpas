@@ -29,4 +29,4 @@ This repository is licensed under [Creative Commons Attribution-ShareAlike 4.0 I
 |                ID                 | Topic        | Authors      |  Scope   | Type          | Status  |
 | :-------------------------------: | :----------- | :----------- | :------: | :------------ | :-----: |
 | [`TNCPAS-0000`](./tncpas-0000.md) | PAS Template | Natsu Tadama | Markdown | Informational | ✅ Final |
-| [`TNCPAS-0001`](./tncpas-0001.md) | Metadata Format for Card Edition Forum Post | Natsu Tadama | BBCode | Standard | 🚪 Open |
+| [`TNCPAS-0001`](./tncpas-0001.md) | Metadata Format for Card Edition Forum Post | Natsu Tadama | BBCode | Standard | ✅ Final |

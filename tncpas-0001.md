@@ -9,7 +9,7 @@ CreatedAt   : 2022-08-27T10:03:20Z
 LastUpdated : 2022-08-27T11:52:30Z
 Authors     :
     - Natsu Tadama
-Status      : Open
+Status      : Final
 Type        : Standard
 Scope       : BBCode
 ---
@@ -66,12 +66,17 @@ for ease card requests parsing/scraping.
    >>>ARR>>Val;Val;Val;Val{- ;[...] -}
    ```
 
+   Total amount of values in an array is defined by user.
+
 4. When a data has separate values, use vertical bar (`|`). This method only
    applicable for `LIM` key.
 
    ```haskell
    >>>LIM>>1|2;4;2;4|5{- ;[...] -}
    ```
+
+   By default, left value on `LIM` is a limit for member, and right for club
+   staff.
 
 5. If a value is empty/null, use `0`.
 
@@ -108,14 +113,14 @@ for ease card requests parsing/scraping.
 |  Key  | Stand As            | Data Type  | Required | Description                                                  |
 | :---: | :------------------ | :--------: | :------: | :----------------------------------------------------------- |
 | `AVA` | **Ava**ilable       | `Arr(Int)` |   Yes    | Total cards designed by Contributors/Staff in a release      |
-| `TEM` | **T**heme **Em**oji |   `Str`    |    No    | Edition emoji (for visual identifier in forum title)         |
 | `LIM` | **Lim**it           | `Arr(Int)` |   Yes    | Maximum cards allowed to request each staff per member/staff |
 | `MAX` | **Max**imum         |   `Int`    |    No    | Maximum requests to accept in one release                    |
-| `SID` | **S**taff **ID**    | `Arr(Sin)` |    No    | Card Contributors/Staff Unique Identifier                    |
+| `SID` | **S**taff **ID**    | `Arr(Sin)` |    No    | Card Contributors/Staff ID [`TNCPAS-0002`](./tncpas-0002.md) |
 | `SLP` | **Sl**i**p**        | `Arr(Boo)` |    No    | State if Contributor/Staff allows slip card usage            |
 | `STF` | **St**a**f**f       | `Arr(Str)` |   Yes    | Card Contributors/Staff Name                                 |
+| `TEM` | **T**heme **Em**oji |   `Str`    |    No    | Edition emoji (for visual identifier in forum title)         |
 | `THM` | **Th**e**m**e       |   `Str`    |   Yes    | Edition title/theme                                          |
-| `TID` | **T**heme **ID**    |   `Sin`    |    No    | Edition ID                                                   |
+| `TID` | **T**heme **ID**    |   `Sin`    |    No    | Edition ID, see [`TNCPAS-0002`](./tncpas-0002.md)            |
 
 ## Syntax Highlighting Support
 
@@ -124,3 +129,4 @@ Metadata uses `haskell` syntax highlight.
 ## References
 
 1. <a id="fn1"></a> [The Newbie Club Card Guides and FAQ § 💳 What is a card?](https://github.com/theNewbieClub-MAL/cardfaq/blob/main/i18n/en_US.md#-what-is-a-card)
+2. [[CARDS] [CLOSED] 🧬 Genderbend - Forums - MyAnimeList.net](https://myanimelist.net/forum/?topicid=2039596&show=0)
