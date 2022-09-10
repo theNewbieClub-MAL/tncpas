@@ -53,9 +53,9 @@ for ease card requests parsing/scraping.
    >>>KEY>>Value
    ```
 
-   Whereas `KEY` is case **sensitive** 3-characters name/key that is predefined in
-   [## Metadata Keys](#metadata-keys), and `Value` is case **insensitive** data
-   value.
+   Whereas `KEY` is case **sensitive** 3-characters name/key that is predefined
+   in [## Metadata Keys](#metadata-keys), and `Value` is case **insensitive**
+   data value.
 
    User can create their own custom key as long the key is 3 characters long
 
@@ -110,17 +110,18 @@ for ease card requests parsing/scraping.
 |     `Sin` | String OR Integer         |
 |     `Str` | String                    |
 
-|  Key  | Stand As            | Data Type  | Required | Description                                                  |
-| :---: | :------------------ | :--------: | :------: | :----------------------------------------------------------- |
-| `AVA` | **Ava**ilable       | `Arr(Int)` |   Yes    | Total cards designed by Contributors/Staff in a release      |
-| `LIM` | **Lim**it           | `Arr(Int)` |   Yes    | Maximum cards allowed to request each staff per member/staff |
-| `MAX` | **Max**imum         |   `Int`    |    No    | Maximum requests to accept in one release                    |
-| `SID` | **S**taff **ID**    | `Arr(Sin)` |    No    | Card Contributors/Staff ID [`TNCPAS-0002`](./tncpas-0002.md) |
-| `SLP` | **Sl**i**p**        | `Arr(Boo)` |    No    | State if Contributor/Staff allows slip card usage            |
-| `STF` | **St**a**f**f       | `Arr(Str)` |   Yes    | Card Contributors/Staff Name                                 |
-| `TEM` | **T**heme **Em**oji |   `Str`    |    No    | Edition emoji (for visual identifier in forum title)         |
-| `THM` | **Th**e**m**e       |   `Str`    |   Yes    | Edition title/theme                                          |
-| `TID` | **T**heme **ID**    |   `Sin`    |    No    | Edition ID, see [`TNCPAS-0002`](./tncpas-0002.md)            |
+|  Key  | Stand As            | Data Type  | Required | Description                                                       |
+| :---: | :------------------ | :--------: | :------: | :---------------------------------------------------------------- |
+| `AVA` | **Ava**ilable       | `Arr(Int)` |   Yes    | Total cards designed by Contributors/Staff in a release           |
+| `CLR` | **C**o**l**o**r**   | `Arr(Str)` |    No    | Font colors used on a thread in Hex format (`#ffffff`)            |
+| `LIM` | **Lim**it           | `Arr(Int)` |   Yes    | Maximum cards allowed to request each staff per member/staff      |
+| `MAX` | **Max**imum         |   `Int`    |    No    | Maximum requests to accept in one release                         |
+| `SID` | **S**taff **ID**    | `Arr(Sin)` |    No    | Card Contributors/Staff ID, see [`TNCPAS-0002`](./tncpas-0002.md) |
+| `SLP` | **Sl**i**p**        | `Arr(Boo)` |    No    | State if Contributor/Staff allows slip card usage                 |
+| `STF` | **St**a**f**f       | `Arr(Str)` |   Yes    | Card Contributors/Staff Name                                      |
+| `TEM` | **T**heme **Em**oji |   `Str`    |    No    | Edition emoji (for visual identifier in forum title)              |
+| `THM` | **Th**e**m**e       |   `Str`    |   Yes    | Edition title/theme                                               |
+| `TID` | **T**heme **ID**    |   `Sin`    |    No    | Edition ID, see [`TNCPAS-0002`](./tncpas-0002.md)                 |
 
 ## Syntax Highlighting Support
 
